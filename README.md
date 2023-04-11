@@ -1,11 +1,11 @@
 <p align="center">
-	<a href="https://technitium.com/dns/">
+	<a href="https://github.com/xiwang-online/People-Detection-System">
 		<img src="./img/logo.png" alt="People Detection" /><br />
 		<b>People Detection System</b>
 	</a><br />
 	<br />
 	<b>人流量检测系统</b><br />
-	<b>通过深度学习进行人流量检测和实时数据分析</b>
+	<b>深度学习|人工智能|数据分析|VUE|SpringBoot</b>
 </p>
 <p align="center">
 <img src="./img/1.jpg" alt="People Detection" />
@@ -46,7 +46,7 @@ ps:服务器带宽有限，访问人多的话会很卡。
 3. 运行入口文件：```PeopleDetectionSystemSpringBootApplication.class```
 
 ####  前端
-1. 拉取项目文件，进入Vue文件夹
+1. 进入Vue文件夹
 2. 注册[高德开放平台](https://lbs.amap.com/)账号，申请key，填入项目index.html的16和19行。
 3. 修改vite.config.js文件的target为后端地址
 4. 修改video.vue中的流媒体服务器地址。
