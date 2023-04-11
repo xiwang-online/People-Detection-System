@@ -53,7 +53,7 @@ ps:服务器带宽有限，访问人多的话会很卡。
 6. 运行：```npm run dev```
 
 #### 流媒体服务器
-本项目采用nginx搭建流媒体服务器，安装nginx的同时需要安装nginx-rtmp-module插件，建议使用 [docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)，环境都集成好了，直接用就可以了。
+本项目采用nginx搭建流媒体服务器，需安装nginx和nginx-rtmp-module插件，建议使用 [docker-nginx-rtmp](https://github.com/alfg/docker-nginx-rtmp)，环境都集成好了，直接用就可以了。
 
 #### 深度学习算法
 1. 安装[ffmpeg](https://ffmpeg.org/)
