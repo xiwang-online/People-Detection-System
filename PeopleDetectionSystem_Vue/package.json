@@ -1,0 +1,25 @@
+{
+  "name": "xiwang_front",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "axios": "^0.27.2",
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.15",
+    "marked": "^4.0.19",
+    "vue": "^3.0.4",
+    "vue-axios": "^3.4.1",
+    "vue-echarts": "^6.2.3",
+    "vue-router": "^4.1.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/marked": "^4.0.6",
+    "@vue/compiler-sfc": "^3.0.4",
+    "vite": "^1.0.0-rc.13"
+  }
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none
+}
+
+img {
+  vertical-align: top;
+  border: none
+}
+
+@font-face {
+  font-family: "MiSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./font/MiSans-Regular.subset.woff2') format('woff2');
+
+}
+
+
+
+
+/*设置页面大小，以便子元素水平垂直居中*/
+.index {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /*水平垂直居中*/
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 5px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+
+@media (max-width: 1224px) {
+
+
+
+
+  .index {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*水平垂直居中*/
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: rgb(248, 244, 237, 0.5);
+    box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: MiSans;
+
+  }
+
+}
+
+/*实现暗黑模式，其实就是将颜色反转
+html{
+  filter: invert(1) hue-rotate(180deg)
+}
+*/
+
+
+/*网页变黑白
+html {
+
+  -webkit-filter: grayscale(100%);
+  
+  -moz-filter: grayscale(100%);
+  
+  -ms-filter: grayscale(100%);
+  
+  -o-filter: grayscale(100%);
+  
+  filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  
+  _filter:none;
+  
+  }
+*/
