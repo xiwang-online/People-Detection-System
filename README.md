@@ -89,8 +89,8 @@ ps:服务器带宽有限，访问人多的话会很卡。
 
 
 ## 参考资料
-[VUE官网](https://vuejs.org/)
-[Element-UI](https://element-plus.org/zh-CN/)
-[Echarts](https://echarts.apache.org/zh/index.html)
-[高德地图开放平台](https://console.amap.com/)
-[yolov5 deepsort 行人 车辆 跟踪 检测 计数](https://github.com/dyh/unbox_yolov5_deepsort_counting)
+- [VUE官网](https://vuejs.org/)
+- [Element-UI](https://element-plus.org/zh-CN/)
+- [Echarts](https://echarts.apache.org/zh/index.html)
+- [高德地图开放平台](https://console.amap.com/)
+- [yolov5 deepsort 行人 车辆 跟踪 检测 计数](https://github.com/dyh/unbox_yolov5_deepsort_counting)
