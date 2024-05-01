@@ -23,9 +23,6 @@
 - **后端：** spring boot + mysql
 - **人工智能：** pytorch + yolov5 + deepsort
 - **部署：** docker + nginx
-## 效果演示
-[查看demo请戳这里](https://people.xiwang.online)
-ps:服务器带宽有限，访问人多的话会很卡。
 
 ## 功能特色
 - 可动态的添加删除摄像头，扩展性好;
@@ -70,20 +67,6 @@ ps:服务器带宽有限，访问人多的话会很卡。
 ## 整体架构
 <p align="center">
 <img src="./img/constr.png" alt="People Detection" />
-</p>
-
-## 项目截图
-<p align="center">
-<img src="./img/1.jpg" alt="People Detection" />
-</p>
-<p align="center">
-<img src="./img/3.jpg" alt="People Detection" />
-</p>
-<p align="center">
-<img src="./img/2.jpg" alt="People Detection" />
-</p>
-<p align="center">
-<img src="./img/4.jpg" alt="People Detection" />
 </p>
 
 
