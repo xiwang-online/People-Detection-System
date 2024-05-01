@@ -7,9 +7,7 @@
 	<b>人流量检测系统</b><br />
 	<b>深度学习|人工智能|数据分析|VUE|SpringBoot</b>
 </p>
-<p align="center">
-<img src="./img/1.jpg" alt="People Detection" />
-</p>
+
 
 
 ## 简介
