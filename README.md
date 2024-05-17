@@ -7,10 +7,9 @@
 	<b>人流量检测系统</b><br />
 	<b>深度学习|人工智能|数据分析|VUE|SpringBoot</b>
 </p>
-
-
-
-**本人毕业论文涉及到本项目相关内容，故暂时删掉项目中部分内容，待盲审通过后恢复。**
+<p align="center">
+<img src="./img/1.jpg" alt="People Detection" />
+</p>
 
 
 ## 简介
@@ -24,6 +23,9 @@
 - **后端：** spring boot + mysql
 - **人工智能：** pytorch + yolov5 + deepsort
 - **部署：** docker + nginx
+## 效果演示
+[查看demo请戳这里](https://people.xiwang.online)
+ps:服务器带宽有限，访问人多的话会很卡。
 
 ## 功能特色
 - 可动态的添加删除摄像头，扩展性好;
@@ -64,6 +66,26 @@
     - pip install -r requirements.txt
 3. 修改main.py中的数据上传地址和流媒体服务器地址
 4. 配置好环境后直接运行main.py：```python main.py```
+
+## 整体架构
+<p align="center">
+<img src="./img/constr.png" alt="People Detection" />
+</p>
+
+## 项目截图
+<p align="center">
+<img src="./img/1.jpg" alt="People Detection" />
+</p>
+<p align="center">
+<img src="./img/3.jpg" alt="People Detection" />
+</p>
+<p align="center">
+<img src="./img/2.jpg" alt="People Detection" />
+</p>
+<p align="center">
+<img src="./img/4.jpg" alt="People Detection" />
+</p>
+
 
 
 ## 参考资料
