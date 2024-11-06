@@ -24,8 +24,7 @@
 - **人工智能：** pytorch + yolov5 + deepsort
 - **部署：** docker + nginx
 ## 效果演示
-[查看demo请戳这里](https://people.xiwang.online)
-ps:服务器带宽有限，访问人多的话会很卡。
+因服务器到期，演示站点已关闭。
 
 ## 功能特色
 - 可动态的添加删除摄像头，扩展性好;
